@@ -19,9 +19,15 @@ Your task will now be to collect data about some of the most touristic cities in
    In order to store the data, we need to create a database. A first draft for the structue can be drawn by hand. This helps you to set up the database correctly in MySQL then and not mess up with connections and data types. The MySQL database needs then to be hosted in the cloud, so it can fetch all the data from the automated and static sources. 
    
 ### 4️⃣ Set up and automate a cloud pipeline (AWS)
- Amazon Web Services (AWS) offers a lot of oppurtunities, one of which allows you to automate data pipelines. Needed information will then be fetched from the respective API and store it in your cloud database. You can then perform all analysis that you want or use the data for any time of further processing. 
+ Amazon Web Services (AWS) offers a lot of opportunities, one of which allows you to automate data pipelines (AWS Lambda). Needed information will then be fetched from the respective API and store it in your cloud database. You can then perform all analysis that you want or use the data for any time of further processing. 
 
  
+## Where to find what? 🕵️‍♀️🔍
+
+The notebook contains all relevant code (mostly functions) to gather information needed from Wikipedia or APIs as well as the code to set up a MySQL database in the cloud. Additionally you can find the code of the AWS Lambda functions. 
+Please feel free to use it as an source of inspiration for your own projects. 
+
+
 
 
 
