@@ -14,6 +14,9 @@ Your task will now be to collect data about some of the most touristic cities in
    
 ### 2️⃣ Collect data with API's
   In a next step you can collect more data from APIs, such as weather data or flight and airport data. In this project I used the following APIs:
+  - [Open Weather API](https://openweathermap.org/api)
+  - [Aviation Reference Data](https://rapidapi.com/proground/api/aviation-reference-data/)
+  - [Aviationstack](https://aviationstack.com/)
  
 ### 3️⃣ Create database (MySQL)
    In order to store the data, we need to create a database. A first draft for the structue can be drawn by hand. This helps you to set up the database correctly in MySQL then and not mess up with connections and data types. The MySQL database needs then to be hosted in the cloud, so it can fetch all the data from the automated and static sources. 
