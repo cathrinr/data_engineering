@@ -9,16 +9,19 @@ Your task will now be to collect data about some of the most touristic cities in
 
 ## Which tools to use?
 
-### 1. Web Scraping data from Wikipedia
+### :one: Web Scraping data from Wikipedia
    With the use of Python library BeautifulSoup you can easily scrape all the needed data from Wikipedia. In this case this applied mainly to demographic data, like population, coordinates etc. If you want to read more about how to web scrape Wikipedia tables, check out my [Medium article](https://medium.com/@oboenfreak/web-scraping-wikipedia-tables-with-python-22223f761b1e) on this subject.
    
 ### 2. Collect data with API's
- In a next step you can collect more data from APIs, such as weather data or flight and airport data. In this project I used the following APIs:
+  In a next step you can collect more data from APIs, such as weather data or flight and airport data. In this project I used the following APIs:
  
 ### 3. Create database (MySQL)
-   In order to store the data, we need to create a database. A first draft for the structue can be drawn by hand. This helps you to set up the database then correctly in MySQL and not mess up with connections and data types. The MySQL database needs then to be hosted in the cloud, so it can fetch all the data from the automated and static sources. 
+   In order to store the data, we need to create a database. A first draft for the structue can be drawn by hand. This helps you to set up the database correctly in MySQL then and not mess up with connections and data types. The MySQL database needs then to be hosted in the cloud, so it can fetch all the data from the automated and static sources. 
    
 ### 4. Set up and automate a cloud pipeline (AWS)
+ Amazon Web Services (AWS) offers a lot of oppurtunities, one of which allows you to automate data pipelines. Needed information will then be fetched from the respective API and store it in your cloud database. You can then perform all analysis that you want or use the data for any time of further processing. 
+
+ 
 
 
 
